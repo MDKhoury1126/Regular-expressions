@@ -1,7 +1,7 @@
 # Regular-expressions
 import re
 
-Fname = input('Enter file name')
+```Fname = input('Enter file name')
 if len(Fname) < 1:
     Fname = 'regex_sum_2406442.txt'
 
@@ -14,4 +14,4 @@ for line in fh:
     for num in found:
         numbers.append(int(num))
 
-print('Sum:', sum(numbers))
+print('Sum:', sum(numbers))```
